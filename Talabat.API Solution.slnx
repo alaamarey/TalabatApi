@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Talabat.API/Talabat.API.csproj" />
+  <Project Path="Talabat.Core/Talabat.Core.csproj" />
+  <Project Path="Talabat.repository/Talabat.repository.csproj" />
+  <Project Path="Talabat.Services/Talabat.Services.csproj" />
+</Solution>
