@@ -68,6 +68,16 @@ A production-grade E-Commerce Backend API built with ASP.NET Core following Onio
 
 ---
 
+
+ ---
+
+ 📸 Screenshots
+
+![Website Preview](./talabat 1.PNG)
+![Website Preview](./talabat 1.PNG)
+
+---
+
 ## Project Architecture
 
 The project follows Onion Architecture:
