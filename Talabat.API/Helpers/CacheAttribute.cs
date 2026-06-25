@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using System.Text;
 using Talabat.Core.Services.Contract;
 
-namespace Talabat.API.Helper
+namespace Talabat.API.Helpers
 {
    
         public class CacheAttribute : Attribute, IAsyncActionFilter

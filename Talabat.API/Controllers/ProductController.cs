@@ -7,7 +7,6 @@ using System.Net;
 using System.Reflection.Metadata.Ecma335;
 using Talabat.API.Dtos;
 using Talabat.API.Errors;
-using Talabat.API.Helper;
 using Talabat.API.Helpers;
 using Talabat.Core.Entities;
 using Talabat.Core.Repository.Contract;
