@@ -68,6 +68,16 @@ A production-grade E-Commerce Backend API built with ASP.NET Core following Onio
 
 ---
 
+
+ ---
+
+ 📸 Screenshots
+
+![Website Preview](./talabat1.PNG)
+![Website Preview](./talabat2.PNG)
+
+---
+
 ## Project Architecture
 
 The project follows Onion Architecture:
@@ -172,6 +182,3 @@ https://localhost:<port>/swagger
 
 ---
 
-## Author
-
-Developed by [Your Name]
