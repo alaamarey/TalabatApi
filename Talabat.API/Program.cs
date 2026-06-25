@@ -35,6 +35,7 @@ namespace Talabat.API
             webApplicationBuilder.Services.AddOpenApi();
 
 
+
             webApplicationBuilder.Services.AddDbContext<TalabatDbContext>(option =>
             {
                 option.UseSqlServer(webApplicationBuilder.Configuration.GetConnectionString("DefaultConnection"));
@@ -44,8 +45,15 @@ namespace Talabat.API
             #region Redis
             webApplicationBuilder.Services.AddSingleton<IConnectionMultiplexer>(serviceProvider =>
             {
-                var connection = webApplicationBuilder.Configuration.GetConnectionString("Redis");
-                return ConnectionMultiplexer.Connect(connection!);
+                try
+                {
+                    var connection = webApplicationBuilder.Configuration.GetConnectionString("Redis");
+                    return ConnectionMultiplexer.Connect(connection);
+                }
+                catch
+                {
+                    return null;
+                }
             }); 
             #endregion
 

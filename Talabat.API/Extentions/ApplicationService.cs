@@ -27,6 +27,7 @@ namespace Talabat.API.Extentions
             services.AddScoped(typeof(IOrderService), typeof(OrderService));
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
             services.AddScoped(typeof(IPaymentService), typeof(PaymentService));
+            services.AddScoped(typeof(ICacheService), typeof(CacheService));
 
 
             services.AddAutoMapper(M => M.AddProfile(new MappingProfile()) , AppDomain.CurrentDomain.GetAssemblies());
