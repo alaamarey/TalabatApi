@@ -182,6 +182,3 @@ https://localhost:<port>/swagger
 
 ---
 
-## Author
-
-Developed by [Your Name]
